@@ -16,6 +16,15 @@ echo.
 echo ====================================================================
 echo.
 
+:: [SECURITY NOTE FOR USERS]
+:: This script is entirely open-source and safe to read.
+:: It does NOT download any pre-compiled executables or sketchy files.
+:: It ONLY clones the official Vencord GitHub repository, injects our 
+:: local plugin files, and uses the official Vencord build process.
+:: We use a separate folder (%APPDATA%\Vencord-DarkenStream) so we
+:: do not interfere with any existing developer environments you have.
+
+
 :: 1. Check for Git
 where git >nul 2>nul
 if %errorlevel% neq 0 (

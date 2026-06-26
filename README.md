@@ -1,5 +1,7 @@
 # Darken Stream (HDR Fix)
 
+> **Note:** This plugin was built with the assistance of AI (Antigravity).
+
 A custom Vencord plugin designed to combat HDR glare in Discord screenshares. 
 
 When you use an HDR monitor, watching a standard or un-calibrated screenshare on Discord can often result in blinding white glare. This plugin safely lowers the brightness of the screenshare window using CSS filters without affecting the rest of your Discord UI.
